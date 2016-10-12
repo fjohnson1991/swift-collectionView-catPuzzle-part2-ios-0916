@@ -18,7 +18,11 @@ class FooterReusableView: UICollectionReusableView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
+
         configureView()
+        countUp()
+        timeString(time: timeCount)
+        startTimer()
         
     }
     
